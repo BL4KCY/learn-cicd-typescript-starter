@@ -37,6 +37,6 @@ const diffApiKeyHeader: IncomingHttpHeaders = {
   authorization: "Bearar invalidKey",
 };
 
-test("different authentication scheme", () => {
-  expect(getAPIKey(diffAuthSchemeHeader)).toBeNull();
+test("test different apiKey", () => {
+  expect(getAPIKey(diffApiKeyHeader)).toBeNull();
 });
