@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
-import { getAPIKey } from "./src/api/auth.js";
 import { IncomingHttpHeaders } from "http";
+import { getAPIKey } from "../api/auth";
 
 const apikey: string = "Gty5PVEuGd73pIsstV0hqid2UOaoUAK7";
 
